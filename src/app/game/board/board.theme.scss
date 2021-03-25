@@ -1,0 +1,8 @@
+@mixin board-theme($theme) {
+  $alternative-background-color: map-get($theme, "alternative-background-color");
+  .board {
+    .background {
+      background-color: $alternative-background-color;
+    }
+  }
+}
